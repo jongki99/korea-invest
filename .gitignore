@@ -7,3 +7,6 @@ local-temp
 
 __pycache__
 
+# launch.json.example 로 로컬환경을 변경하면 업데이트 해서 공유하도록 한다.
+launch.json
+

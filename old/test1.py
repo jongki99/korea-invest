@@ -19,6 +19,8 @@ itm_no = "005930"
 # [국내주식] 기본시세 > 주식현재가 시세 (종목번호 6자리)
 rt_data = kb.get_inquire_price(itm_no=itm_no)
 #005930
+print()
+
 print(rt_data)
 print(rt_data.stck_prpr+ " " + rt_data.prdy_vrss)    # 현재가, 전일대비
 
