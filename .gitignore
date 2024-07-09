@@ -1,12 +1,14 @@
+# 보안키 제외 처리.
+/old/config/kis_devlp.yaml
 
-kis_devlp.yaml
+# 로컬환경 설정 제외 처리.
+/local-temp
 
-local-temp
-
-*.pyc
-
-__pycache__
-
+# IDE 설정 제외 처리.
 # launch.json.example 로 로컬환경을 변경하면 업데이트 해서 공유하도록 한다.
-launch.json
+/.vscode/launch.json
+
+# python cache 제외 처리.
+*.pyc
+__pycache__
 
